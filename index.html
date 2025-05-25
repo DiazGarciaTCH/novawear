@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaWear - Diseño de Ropa</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">NovaWear</div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#coleccion">Colección</a>
+      <a href="#nosotros">Sobre Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Diseño de ropa con visión futurista</h1>
+    <p>Fusionamos tecnología y moda para crear piezas únicas.</p>
+    <a href="#coleccion" class="boton">Ver colección</a>
+  </section>
+
+  <section id="coleccion" class="catalogo">
+    <h2>Nuestra Colección</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x400?text=Chaqueta+Neo" alt="Chaqueta Neo" />
+        <h3>Chaqueta Neo</h3>
+        <p>Chaqueta reflectiva inspirada en la ciudad del futuro.</p>
+        <button class="boton-carrito" onclick="agregarAlCarrito('Chaqueta Neo')">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x400?text=Pantalón+Cyber" alt="Pantalón Cyber" />
+        <h3>Pantalón Cyber</h3>
+        <p>Diseño minimalista con detalles tecnológicos.</p>
+        <button class="boton-carrito" onclick="agregarAlCarrito('Pantalón Cyber')">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x400?text=Vestido+Holograma" alt="Vestido Holograma" />
+        <h3>Vestido Holograma</h3>
+        <p>Vestido elegante con materiales inteligentes.</p>
+        <button class="boton-carrito" onclick="agregarAlCarrito('Vestido Holograma')">Agregar al carrito</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      En <strong>NovaWear</strong>, creemos que la ropa no solo cubre, sino que expresa el alma del futuro. Desde 2025 diseñamos piezas que combinan moda, tecnología y sostenibilidad. Nuestro equipo está compuesto por creativos, ingenieros textiles y artistas digitales que trabajan para redefinir el estilo urbano.
+    </p>
+    <p>
+      Cada prenda que diseñamos busca inspirar a quienes quieren destacar, moverse con libertad y vestir con propósito. Innovación, elegancia y rebeldía son nuestros pilares.
+    </p>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Dirección:</strong>Puerto Plata Republica Dominicana</p>
+    <p><strong>Email:</strong> contacto@novawear.com</p>
+    <p><strong>WhatsApp:</strong> +858 345 7790</p>
+  </section>
+
+  <footer>
+    <p>© 2025 NovaWear. Moda con propósito y diseño de otro mundo.</p>
+  </footer>
+
+  <script>
+    function agregarAlCarrito(producto) {
+      alert(`"${producto}" ha sido agregado al carrito 🛒`);
+    }
+  </script>
+</body>
+</html>
